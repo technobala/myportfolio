@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.topContent{color:#fff; position:relative;}
+.topContent__container{
+    position:absolute;
+    top:300px;
+    right:150px;
+}
+.topContent__container > p {
+    letter-spacing: 1px;
+    text-align:left;
+    padding:20px 0 0 3px;
+}
+.topContent__container > a  > .topContent__downloadbutton {
+    margin-bottom:30px;
+    margin-left:5px;
+    margin-top:20px;
+    text-align:left;
+    border:none;
+    border-radius:2px;
+    background:#f64c08;
+    font-size:14px;
+    padding:10px 30px;
+    font-family: 'montserrat', sans-serif;
+    color:#fff;
+    font-weight:300px;
+    cursor:pointer;
+}
+.topContent__container h1{
+    font-size:50px;
+    font-family: 'montserrat', sans-serif;
+}
